@@ -44,21 +44,21 @@ namespace Interfac_V3
 
             Btn_Nominas.MouseEnter += Btn_Nominas_MouseEnter;
             Btn_Nominas.MouseLeave += Btn_Nominas_MouseLeave;
-            Btn_Logistica.MouseEnter += Btn_Logistica_MouseEnter;
-            Btn_Logistica.MouseLeave += Btn_Logistica_MouseLeave;
-            Btn_Contabilidad.MouseEnter += Btn_Contabilidad_MouseEnter;
-            Btn_Contabilidad.MouseLeave += Btn_Contabilidad_MouseLeave;
-            Btn_Compras.MouseEnter += Btn_Compras_MouseEnter;
-            Btn_Compras.MouseLeave += Btn_Compras_MouseLeave;
-            Btn_Bancos.MouseEnter += Btn_Bancos_MouseEnter;
-            Btn_Bancos.MouseLeave += Btn_Bancos_MouseLeave;
-            Btn_Produccion.MouseEnter += Btn_Produccion_MouseEnter;
-            Btn_Produccion.MouseLeave += Btn_Produccion_MouseLeave;
-            Btn_CuentasCorrientes.MouseEnter += Btn_CuentasCorrientes_MouseEnter;
-            Btn_CuentasCorrientes.MouseLeave += Btn_CuentasCorrientes_MouseLeave;
+            //Btn_Logistica.MouseEnter += Btn_Logistica_MouseEnter;
+            //Btn_Logistica.MouseLeave += Btn_Logistica_MouseLeave;
+            //Btn_Contabilidad.MouseEnter += Btn_Contabilidad_MouseEnter;
+            //Btn_Contabilidad.MouseLeave += Btn_Contabilidad_MouseLeave;
+            //Btn_Compras.MouseEnter += Btn_Compras_MouseEnter;
+            //Btn_Compras.MouseLeave += Btn_Compras_MouseLeave;
+            //Btn_Bancos.MouseEnter += Btn_Bancos_MouseEnter;
+            //Btn_Bancos.MouseLeave += Btn_Bancos_MouseLeave;
+            //Btn_Produccion.MouseEnter += Btn_Produccion_MouseEnter;
+            //Btn_Produccion.MouseLeave += Btn_Produccion_MouseLeave;
+            //Btn_CuentasCorrientes.MouseEnter += Btn_CuentasCorrientes_MouseEnter;
+            //Btn_CuentasCorrientes.MouseLeave += Btn_CuentasCorrientes_MouseLeave;
 
-            Btn_Empresa.MouseEnter += Btn_Empresa_MouseEnter;
-            Btn_Empresa.MouseLeave += Btn_Empresa_MouseLeave;
+            //Btn_Empresa.MouseEnter += Btn_Empresa_MouseEnter;
+            //Btn_Empresa.MouseLeave += Btn_Empresa_MouseLeave;
             btnSalir.MouseEnter += btnSalir_MouseEnter;
             btnSalir.MouseLeave += btnSalir_MouseLeave;
 
@@ -218,14 +218,14 @@ namespace Interfac_V3
             //logistica.Show();
         }
 
-        private void Btn_Logistica_MouseEnter(object sender, EventArgs e)
-        {
-            Btn_Logistica.BackColor = Color.FromArgb(50, 105, 228);  // Cambia el color de fondo al pasar el cursor
-        }
-        private void Btn_Logistica_MouseLeave(object sender, EventArgs e)
-        {
-            Btn_Logistica.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
-        }
+        //private void Btn_Logistica_MouseEnter(object sender, EventArgs e)
+        //{
+        //    Btn_Logistica.BackColor = Color.FromArgb(50, 105, 228);  // Cambia el color de fondo al pasar el cursor
+        //}
+        //private void Btn_Logistica_MouseLeave(object sender, EventArgs e)
+        //{
+        //    Btn_Logistica.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
+        //}
 
         private void Btn_Contabilidad_Click(object sender, EventArgs e)
         {
@@ -233,14 +233,14 @@ namespace Interfac_V3
             //conta.Show();
         }
 
-        private void Btn_Contabilidad_MouseEnter(object sender, EventArgs e)
-        {
-            Btn_Contabilidad.BackColor = Color.FromArgb(70, 120, 233);  // Cambia el color de fondo al pasar el cursor
-        }
-        private void Btn_Contabilidad_MouseLeave(object sender, EventArgs e)
-        {
-            Btn_Contabilidad.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
-        }
+        //private void Btn_Contabilidad_MouseEnter(object sender, EventArgs e)
+        //{
+        //    Btn_Contabilidad.BackColor = Color.FromArgb(70, 120, 233);  // Cambia el color de fondo al pasar el cursor
+        //}
+        //private void Btn_Contabilidad_MouseLeave(object sender, EventArgs e)
+        //{
+        //    Btn_Contabilidad.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
+        //}
 
         private void Btn_Compras_Click(object sender, EventArgs e)
         {
@@ -249,14 +249,14 @@ namespace Interfac_V3
 
         }
 
-        private void Btn_Compras_MouseEnter(object sender, EventArgs e)
-        {
-            Btn_Compras.BackColor = Color.FromArgb(90, 135, 238);  // Cambia el color de fondo al pasar el cursor
-        }
-        private void Btn_Compras_MouseLeave(object sender, EventArgs e)
-        {
-            Btn_Compras.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
-        }
+        //private void Btn_Compras_MouseEnter(object sender, EventArgs e)
+        //{
+        //    Btn_Compras.BackColor = Color.FromArgb(90, 135, 238);  // Cambia el color de fondo al pasar el cursor
+        //}
+        //private void Btn_Compras_MouseLeave(object sender, EventArgs e)
+        //{
+        //    Btn_Compras.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
+        //}
 
         private void Btn_Bancos_Click(object sender, EventArgs e)
         {
@@ -266,14 +266,14 @@ namespace Interfac_V3
 
         }
 
-        private void Btn_Bancos_MouseEnter(object sender, EventArgs e)
-        {
-            Btn_Bancos.BackColor = Color.FromArgb(110, 150, 243);  // Cambia el color de fondo al pasar el cursor
-        }
-        private void Btn_Bancos_MouseLeave(object sender, EventArgs e)
-        {
-            Btn_Bancos.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
-        }
+        //private void Btn_Bancos_MouseEnter(object sender, EventArgs e)
+        //{
+        //    Btn_Bancos.BackColor = Color.FromArgb(110, 150, 243);  // Cambia el color de fondo al pasar el cursor
+        //}
+        //private void Btn_Bancos_MouseLeave(object sender, EventArgs e)
+        //{
+        //    Btn_Bancos.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
+        //}
 
         private void Btn_Produccion_Click(object sender, EventArgs e)
         {
@@ -281,14 +281,14 @@ namespace Interfac_V3
             produccion.Show();*/
         }
 
-        private void Btn_Produccion_MouseEnter(object sender, EventArgs e)
-        {
-            Btn_Produccion.BackColor = Color.FromArgb(150, 180, 253);  // Cambia el color de fondo al pasar el cursor
-        }
-        private void Btn_Produccion_MouseLeave(object sender, EventArgs e)
-        {
-            Btn_Produccion.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
-        }
+        //private void Btn_Produccion_MouseEnter(object sender, EventArgs e)
+        //{
+        //    Btn_Produccion.BackColor = Color.FromArgb(150, 180, 253);  // Cambia el color de fondo al pasar el cursor
+        //}
+        //private void Btn_Produccion_MouseLeave(object sender, EventArgs e)
+        //{
+        //    Btn_Produccion.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
+        //}
 
         private void Btn_CuentasCorrientes_Click(object sender, EventArgs e)
         {
@@ -296,24 +296,24 @@ namespace Interfac_V3
             //cc.Show();
         }
 
-        private void Btn_CuentasCorrientes_MouseEnter(object sender, EventArgs e)
-        {
-            Btn_CuentasCorrientes.BackColor = Color.FromArgb(170, 195, 255);  // Cambia el color de fondo al pasar el cursor
-        }
-        private void Btn_CuentasCorrientes_MouseLeave(object sender, EventArgs e)
-        {
-            Btn_CuentasCorrientes.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
-        }
+        //private void Btn_CuentasCorrientes_MouseEnter(object sender, EventArgs e)
+        //{
+        //    Btn_CuentasCorrientes.BackColor = Color.FromArgb(170, 195, 255);  // Cambia el color de fondo al pasar el cursor
+        //}
+        //private void Btn_CuentasCorrientes_MouseLeave(object sender, EventArgs e)
+        //{
+        //    Btn_CuentasCorrientes.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
+        //}
 
-        //ultimos dos botones
-        private void Btn_Empresa_MouseEnter(object sender, EventArgs e)
-        {
-            Btn_Empresa.BackColor = Color.FromArgb(190, 210, 255);  // Cambia el color de fondo al pasar el cursor
-        }
-        private void Btn_Empresa_MouseLeave(object sender, EventArgs e)
-        {
-            Btn_Empresa.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
-        }
+        ////ultimos dos botones
+        //private void Btn_Empresa_MouseEnter(object sender, EventArgs e)
+        //{
+        //    Btn_Empresa.BackColor = Color.FromArgb(190, 210, 255);  // Cambia el color de fondo al pasar el cursor
+        //}
+        //private void Btn_Empresa_MouseLeave(object sender, EventArgs e)
+        //{
+        //    Btn_Empresa.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
+        //}
 
 
         private void btnSalir_MouseEnter(object sender, EventArgs e)
@@ -323,6 +323,11 @@ namespace Interfac_V3
         private void btnSalir_MouseLeave(object sender, EventArgs e)
         {
             btnSalir.BackColor = Color.FromArgb(240, 240, 240);  // Restaura el color original al quitar el cursor
+        }
+
+        private void panelContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
